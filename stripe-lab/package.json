@@ -1,0 +1,14 @@
+{
+  "name": "stripe-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch --env-file=.env src/server.js",
+    "start": "node --env-file=.env src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "stripe": "^18.5.0"
+  }
+}
